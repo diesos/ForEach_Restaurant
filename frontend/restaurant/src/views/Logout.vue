@@ -15,7 +15,6 @@ onMounted(async () => {
   	}
 
   	localStorage.removeItem('user');
-  	// Rediriger vers la page de login
   	router.replace('/login');
 });
 </script>
